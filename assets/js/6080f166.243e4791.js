@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkclassic=self.webpackChunkclassic||[]).push([[76],{9565:s=>{s.exports=JSON.parse('{"label":"actix-web","permalink":"/blog/tags/actix-web","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);
