@@ -166,11 +166,11 @@ The key identifier is an extra input for the key derivation function selectable 
 
 ## Resources
 
-- [Trusted Execution Environment: What It is, and What It is Not](10.1109/Trustcom.2015.357), Sabt, Mohamed and Achemlal, Mohammed and Bouabdallah, Abdelmadjid
+- [Trusted Execution Environment: What It is, and What It is Not](https://doi.org/10.1109/Trustcom.2015.357), Sabt, Mohamed and Achemlal, Mohammed and Bouabdallah, Abdelmadjid
 - [Introduction to Trusted Execution Environment: ARM's TrustZone](https://blog.quarkslab.com/introduction-to-trusted-execution-environment-arms-trustzone.html)
 - [Specification of a trusted computing base (TCB)](https://apps.dtic.mil/sti/pdfs/ADA108831.pdf)
 - [Keystone blog](https://keystone-enclave.org/blog/)
 - [Keystone Enclave's documentation](https://docs.keystone-enclave.org/en/latest/index.html)
-- [Keystone: An open framework for architecting trusted execution environments](10.1145/3342195.3387532), Lee, Dayeol and Kohlbrenner, David and Shinde, Shweta and Asanovi'c, Krste and Song, Dawn
+- [Keystone: An open framework for architecting trusted execution environments](https://doi.org/10.1145/3342195.3387532), Lee, Dayeol and Kohlbrenner, David and Shinde, Shweta and Asanovi'c, Krste and Song, Dawn
 - [Physical Memory Protection](https://sifive.github.io/freedom-metal-docs/devguide/pmps.html)
 - [RISC-V Specification Documentations](https://riscv.org/technical/specifications/)
