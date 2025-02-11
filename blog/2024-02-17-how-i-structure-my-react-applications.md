@@ -5,30 +5,33 @@ authors: luca
 tags: [web-applications, react]
 ---
 
-Since university, I usually use [React](https://react.dev/) for all of my front-end projects. I will describe in this post how I structure these projects. 
+Since university, I always used [React](https://react.dev/) for all of my front-end projects. I will describe in this post how I usually structure these projects. 
 
-TODO
+<!--truncate-->
 
 ```
 frontend/
-├── public/
+├── public/ #images and wasm libraries
 ├── src/
 │   ├── api/
 │   ├── components/
 │   ├── hooks/
+│   ├── pages/
 │   ├── types/
 │   ├── utils/
 │   ├── App.tsx
 │   ├── index.css
 │   ├── main.tsx
 │   └── vite-env.d.ts
+├── .env
+├── .eslintignore
 ├── .eslintrc.cjs
 ├── .gitignore
+├── LICENSE
+├── README.md
 ├── index.html
 ├── package.json
 ├── package-lock.json
-├── README.md
-├── LICENSE
 ├── tsconfig.json
 ├── tsconfig.node.json
 ├── vercel.json
