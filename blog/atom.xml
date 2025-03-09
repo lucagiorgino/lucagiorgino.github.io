@@ -2,40 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lucagiorgino.github.io/blog</id>
     <title>Luca Giorgino Blog</title>
-    <updated>2024-02-18T00:00:00.000Z</updated>
+    <updated>2024-02-15T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lucagiorgino.github.io/blog"/>
     <subtitle>Luca Giorgino Blog</subtitle>
     <icon>https://lucagiorgino.github.io/img/favicon.ico</icon>
-    <entry>
-        <title type="html"><![CDATA[What I learnt using Actix-web]]></title>
-        <id>https://lucagiorgino.github.io/blog/what-i-learnt-using-actix-web</id>
-        <link href="https://lucagiorgino.github.io/blog/what-i-learnt-using-actix-web"/>
-        <updated>2024-02-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[TODO]]></summary>
-        <content type="html"><![CDATA[<p>TODO</p>]]></content>
-        <author>
-            <name>Luca Giorgino</name>
-            <uri>https://github.com/lucagiorgino</uri>
-        </author>
-        <category label="rust" term="rust"/>
-        <category label="actix-web" term="actix-web"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How I structure my React applications]]></title>
-        <id>https://lucagiorgino.github.io/blog/how-i-structure-my-react-applications</id>
-        <link href="https://lucagiorgino.github.io/blog/how-i-structure-my-react-applications"/>
-        <updated>2024-02-17T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Since university, I always used React for all of my front-end projects. I will describe in this post how I usually structure these projects.]]></summary>
-        <content type="html"><![CDATA[<p>Since university, I always used <a href="https://react.dev/" target="_blank" rel="noopener noreferrer">React</a> for all of my front-end projects. I will describe in this post how I usually structure these projects.</p>
-<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">frontend/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── public/ #images and wasm libraries</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── src/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│&nbsp;&nbsp; ├── api/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│&nbsp;&nbsp; ├── components/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│&nbsp;&nbsp; ├── hooks/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│   ├── pages/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│&nbsp;&nbsp; ├── types/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│&nbsp;&nbsp; ├── utils/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│&nbsp;&nbsp; ├── App.tsx</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│&nbsp;&nbsp; ├── index.css</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│&nbsp;&nbsp; ├── main.tsx</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│&nbsp;&nbsp; └── vite-env.d.ts</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── .env</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── .eslintignore</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── .eslintrc.cjs</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── .gitignore</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── LICENSE</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── README.md</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── index.html</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── package.json</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── package-lock.json</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── tsconfig.json</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── tsconfig.node.json</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── vercel.json</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">└── vite.config.ts</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content>
-        <author>
-            <name>Luca Giorgino</name>
-            <uri>https://github.com/lucagiorgino</uri>
-        </author>
-        <category label="web-applications" term="web-applications"/>
-        <category label="react" term="react"/>
-    </entry>
     <entry>
         <title type="html"><![CDATA[Keystone Enclave]]></title>
         <id>https://lucagiorgino.github.io/blog/keystone-enclave</id>
@@ -154,5 +125,34 @@ The key identifier is an extra input for the key derivation function selectable 
             <uri>https://github.com/lucagiorgino</uri>
         </author>
         <category label="trusted-computing" term="trusted-computing"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What I learnt using Actix-web]]></title>
+        <id>https://lucagiorgino.github.io/blog/what-i-learnt-using-actix-web</id>
+        <link href="https://lucagiorgino.github.io/blog/what-i-learnt-using-actix-web"/>
+        <updated>2024-02-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[TODO]]></summary>
+        <content type="html"><![CDATA[<p>TODO</p>]]></content>
+        <author>
+            <name>Luca Giorgino</name>
+            <uri>https://github.com/lucagiorgino</uri>
+        </author>
+        <category label="rust" term="rust"/>
+        <category label="actix-web" term="actix-web"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How I structure my React applications]]></title>
+        <id>https://lucagiorgino.github.io/blog/how-i-structure-my-react-applications</id>
+        <link href="https://lucagiorgino.github.io/blog/how-i-structure-my-react-applications"/>
+        <updated>2024-02-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Since university, I always used React for all of my front-end projects. I will describe in this post how I usually structure these projects.]]></summary>
+        <content type="html"><![CDATA[<p>Since university, I always used <a href="https://react.dev/" target="_blank" rel="noopener noreferrer">React</a> for all of my front-end projects. I will describe in this post how I usually structure these projects.</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">frontend/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── public/ #images and wasm libraries</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── src/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│&nbsp;&nbsp; ├── api/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│&nbsp;&nbsp; ├── components/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│&nbsp;&nbsp; ├── hooks/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│   ├── pages/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│&nbsp;&nbsp; ├── types/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│&nbsp;&nbsp; ├── utils/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│&nbsp;&nbsp; ├── App.tsx</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│&nbsp;&nbsp; ├── index.css</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│&nbsp;&nbsp; ├── main.tsx</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│&nbsp;&nbsp; └── vite-env.d.ts</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── .env</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── .eslintignore</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── .eslintrc.cjs</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── .gitignore</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── LICENSE</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── README.md</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── index.html</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── package.json</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── package-lock.json</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── tsconfig.json</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── tsconfig.node.json</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── vercel.json</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">└── vite.config.ts</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content>
+        <author>
+            <name>Luca Giorgino</name>
+            <uri>https://github.com/lucagiorgino</uri>
+        </author>
+        <category label="web-applications" term="web-applications"/>
+        <category label="react" term="react"/>
     </entry>
 </feed>
