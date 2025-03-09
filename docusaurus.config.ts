@@ -36,15 +36,16 @@ const config: Config = {
     [
       'classic',
       {
-        docs: {
-          sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          remarkPlugins: [remarkMath],
-          rehypePlugins: [rehypeKatex],
-        },
+        docs: false, 
+        // {
+        //   sidebarPath: './sidebars.ts',
+        //   // Please change this to your repo.
+        //   // Remove this to remove the "edit this page" links.
+        //   // editUrl:
+        //   //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        //   remarkPlugins: [remarkMath],
+        //   rehypePlugins: [rehypeKatex],
+        // },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
@@ -68,6 +69,11 @@ const config: Config = {
         'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
       crossorigin: 'anonymous',
     },
+    {
+      href: "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css",
+      type: 'text/css',
+      crossorigin: 'anonymous',
+    }
   ],
   themeConfig: {
     // Replace with your project's social card
@@ -80,12 +86,12 @@ const config: Config = {
       },
       items: [
         {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Tutorial',
-        },
+        // {
+        //   type: 'docSidebar',
+        //   sidebarId: 'tutorialSidebar',
+        //   position: 'left',
+        //   label: 'Tutorial',
+        // },
         {
           href: 'https://github.com/lucagiorgino/lucagiorgino.github.io',
           label: 'GitHub',
@@ -95,45 +101,45 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
-          ],
-        },
-        {
-          title: 'Other',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            }
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'LinkedIn',
-              href: 'https://www.linkedin.com/in/luca-giorgino/',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/lucagiorgino',
-            },
-            {
-              label: 'X/Twitter',
-              href: 'https://twitter.com/LucaGiorginoo',
-            },
+      // links: [
+      //   // {
+      //   //   title: 'Docs',
+      //   //   items: [
+      //   //     {
+      //   //       label: 'Tutorial',
+      //   //       to: '/docs/intro',
+      //   //     },
+      //   //   ],
+      //   // },
+      //   {
+      //     title: 'Other',
+      //     items: [
+      //       {
+      //         label: 'Blog',
+      //         to: '/blog',
+      //       }
+      //     ],
+      //   },
+      //   {
+      //     title: 'More',
+      //     items: [
+      //       {
+      //         label: 'LinkedIn',
+      //         href: 'https://www.linkedin.com/in/luca-giorgino/',
+      //       },
+      //       {
+      //         label: 'GitHub',
+      //         href: 'https://github.com/lucagiorgino',
+      //       },
+      //       {
+      //         label: 'X/Twitter',
+      //         href: 'https://twitter.com/LucaGiorginoo',
+      //       },
             
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} Luca Giorgino. Built with Docusaurus.`,
+      //     ],
+      //   },
+      // ],
+      copyright: `Copyright © ${new Date().getFullYear()} Luca Giorgino. Built with Docusaurus. Image by storyset on <a href="http://www.freepik.com">Freepik</a>`,
     },
     prism: {
       theme: prismThemes.github,
