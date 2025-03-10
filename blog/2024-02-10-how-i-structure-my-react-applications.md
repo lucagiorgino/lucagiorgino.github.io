@@ -5,7 +5,7 @@ authors: luca
 tags: [web-applications, react]
 ---
 
-Since university, I always used [React](https://react.dev/) for all of my front-end projects. This is how I usually structure them:
+Since university, I always used [React](https://react.dev/) for all of my front-end projects. <!--truncate--> This is how I usually structure them:
 
 <!--truncate-->
 
