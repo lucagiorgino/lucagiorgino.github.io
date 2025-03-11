@@ -10,6 +10,15 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
+    title: 'Blog',
+    Svg: require('@site/static/img/blog.svg').default,
+    description: (
+      <>
+        Trying to share what I learn and what I face during my adventure in the engineering world
+      </>
+    ),
+  },
+  {
     title: 'About me',
     Svg: require('@site/static/img/explore.svg').default,
     description: (
@@ -31,7 +40,7 @@ const FeatureList: FeatureItem[] = [
 
 function Feature({title, Svg, description}: FeatureItem) {
   return (
-    <div className={clsx('col col--6')}>
+    <div className={clsx('col col--4')}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>
