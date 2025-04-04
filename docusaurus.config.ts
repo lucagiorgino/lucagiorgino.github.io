@@ -84,7 +84,7 @@ const config: Config = {
   ],
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/luca-social-card.png.jpg',
+    image: 'img/luca-social-card.png.png',
     navbar: {
       title: 'Luca Giorgino',
       logo: {
