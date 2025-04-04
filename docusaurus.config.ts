@@ -31,7 +31,10 @@ const config: Config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-
+  themes: ['@docusaurus/theme-mermaid'],
+  markdown: {
+    mermaid: true,
+  },
   presets: [
     [
       'classic',
@@ -58,6 +61,10 @@ const config: Config = {
         theme: {
           customCss: './src/css/custom.css',
         },
+        gtag: {
+          trackingID: 'G-6XTZ9YMEBB',
+          anonymizeIP: true,
+        },
       } satisfies Preset.Options,
     ],
   ],
@@ -77,7 +84,7 @@ const config: Config = {
   ],
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/luca-social-card.png.jpg',
     navbar: {
       title: 'Luca Giorgino',
       logo: {
@@ -139,7 +146,7 @@ const config: Config = {
       //     ],
       //   },
       // ],
-      copyright: `Copyright © ${new Date().getFullYear()} Luca Giorgino. Built with Docusaurus. Image by storyset on <a href="http://www.freepik.com">Freepik</a>`,
+      copyright: `Copyright © ${new Date().getFullYear()} Luca Giorgino. Built with Docusaurus. Image by storyset on <a href="https://www.freepik.com">Freepik</a>`,
     },
     prism: {
       theme: prismThemes.github,
