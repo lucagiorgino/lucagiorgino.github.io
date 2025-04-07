@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkclassic=self.webpackChunkclassic||[]).push([[8947],{6600:c=>{c.exports=JSON.parse('{"authors":[{"name":"Luca Giorgino","title":"Me","url":"https://github.com/lucagiorgino","imageURL":"https://github.com/lucagiorgino.png","key":"luca","page":null,"count":3}]}')}}]);
